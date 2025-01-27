@@ -11,6 +11,15 @@ export default {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      keyframes: {
+        typing: {
+          "0%, 80%, 100%": { transform: "scale(0)", opacity: "0.5" },
+          "40%": { transform: "scale(1)", opacity: "1" },
+        },
+      },
+      animation: {
+        typing: "typing 1.4s infinite ease-in-out",
+      },
     },
   },
   plugins: [],

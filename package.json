@@ -10,11 +10,17 @@
   },
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.0",
+    "@uiw/react-textarea-code-editor": "^1.4.4",
+    "axios": "^1.6.8",
     "next": "15.1.6",
+    "next-remove-imports": "^1.0.12",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-hot-toast": "^2.5.1",
     "react-redux": "^9.2.0",
     "redux": "^5.0.1",
+    "rehype-prism-plus": "^2.0.0",
+    "rehype-rewrite": "^4.0.2",
     "socket.io-client": "^4.8.1"
   },
   "devDependencies": {
